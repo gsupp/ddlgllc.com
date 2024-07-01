@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 <!--
 Tooplate 2117 Infinite Loop
 https://www.tooplate.com/view/2117-infinite-loop
@@ -273,7 +274,8 @@ https://www.tooplate.com/view/2117-infinite-loop
                 <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
                 <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required />
                 <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
-                <button type="submit" class="btn tm-btn-submit">Submit</button>
+                <button type="submit" class="btn tm-btn-submit g-recaptcha" data-sitekey="6Ldi-QQqAAAAAAwH87rjSiznPU-2Efgmrv_AlB6M"
+            data-callback='onSubmit' data-action='submit'>Submit</button>
               </form>
             </div>
             
